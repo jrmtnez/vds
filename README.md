@@ -8,4 +8,4 @@ The article [Can deep learning techniques improve classification performance of 
 ## License and Disclaimer
 Please see the LICENSE file for details. Downloading data indicates your acceptance of our disclaimer.
 
-The classes and methods present in the ssss folder have been partially or totally extracted from other projects. The attribution of these has been maintained whenever we have been able to identify it, and the corresponding license will be applied in each case.
+The classes and methods present in [this](https://github.com/jrmtnez/vds/tree/main/vds.java/src/jrmr/vds/model/ext) folder have been partially or totally extracted from other open source projects. The attribution of these has been maintained whenever we have been able to identify it, and the corresponding license will be applied in each case.
