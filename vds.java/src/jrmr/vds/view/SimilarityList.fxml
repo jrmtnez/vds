@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane fx:id="titledPane" animated="false" collapsible="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Title" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jrmr.vds.view.SimilarityListController">
+   <content>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TableView fx:id="wordSimilarity" prefHeight="200.0" prefWidth="200.0">
+               <columns>
+                  <TableColumn fx:id="wordColumn" prefWidth="150.0" text="Word" />
+                  <TableColumn fx:id="resultColumn" prefWidth="75.0" text="Score" />
+               </columns></TableView>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+
+            </HBox>
+         </children>
+      </GridPane>
+   </content>
+</TitledPane>
